@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "e7490cb8-4105-4481-8e4d-d81f8b7f2893",
+		"name": "Airlines",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24929966"
+	},
+	"item": [
+		{
+			"name": "GETFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/api/Flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"Flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETAirlines",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/api/Airlines",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"Airlines"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETAirport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/api/airport-codes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"airport-codes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
